@@ -10,3 +10,7 @@
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
 	branch = master
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+	branch = master
