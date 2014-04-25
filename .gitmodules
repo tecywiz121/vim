@@ -26,3 +26,7 @@
 	path = bundle/vim-arduino-syntax
 	url = https://github.com/sudar/vim-arduino-syntax.git
 	branch = master
+[submodule "bundle/DBGp-Remote-Debugger-Interface"]
+	path = bundle/DBGp-Remote-Debugger-Interface
+	url = https://github.com/vim-scripts/DBGp-Remote-Debugger-Interface.git
+	branch = master
