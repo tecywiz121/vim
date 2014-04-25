@@ -1,3 +1,5 @@
 # Python Files
 *.pyc
 *.pyo
+
+.netrwhist
