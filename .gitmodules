@@ -30,3 +30,7 @@
 	path = bundle/DBGp-Remote-Debugger-Interface
 	url = https://github.com/vim-scripts/DBGp-Remote-Debugger-Interface.git
 	branch = master
+[submodule "bundle/detectindent"]
+	path = bundle/detectindent
+	url = https://github.com/roryokane/detectindent.git
+	branch = master
