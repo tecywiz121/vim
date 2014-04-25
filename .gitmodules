@@ -14,3 +14,7 @@
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
 	branch = master
+[submodule "bundle/vim-virtualenv"]
+	path = bundle/vim-virtualenv
+	url = https://github.com/jmcantrell/vim-virtualenv.git
+	branch = master
