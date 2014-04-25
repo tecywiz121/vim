@@ -22,3 +22,7 @@
 	path = bundle/vim-arduino-ino
 	url = https://github.com/jplaut/vim-arduino-ino.git
 	branch = master
+[submodule "bundle/vim-arduino-syntax"]
+	path = bundle/vim-arduino-syntax
+	url = https://github.com/sudar/vim-arduino-syntax.git
+	branch = master
