@@ -34,3 +34,7 @@
 	path = bundle/detectindent
 	url = https://github.com/roryokane/detectindent.git
 	branch = master
+[submodule "bundle/vaxe"]
+	path = bundle/vaxe
+	url = https://github.com/jdonaldson/vaxe.git
+	branch = master

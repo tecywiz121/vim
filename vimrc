@@ -72,3 +72,6 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf.py'
 " Highlight the background of long lines
 highlight ColorColumn ctermbg=5 guibg=LightBlue
 let &colorcolumn=80
+
+" Fix vaxe autocompletion
+autocmd FileType haxe set autowrite
