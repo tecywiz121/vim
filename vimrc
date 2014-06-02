@@ -1,6 +1,10 @@
 " Show line numbers
 set number
 
+" Vim Hardmode
+autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
+nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
+
 " Indentation Detection
 let g:detectindent_preferred_indent = 4
 let g:detectindent_preferred_expandtab = 1

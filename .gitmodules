@@ -38,3 +38,6 @@
 	path = bundle/vaxe
 	url = https://github.com/jdonaldson/vaxe.git
 	branch = master
+[submodule "bundle/hardmode"]
+	path = bundle/hardmode
+	url = https://github.com/wikitopian/hardmode.git
