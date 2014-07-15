@@ -32,6 +32,8 @@ match WhitespaceEOL /\s\+$/
 set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class,with
 inoremap # X#
 
+au FileType xml,ant setlocal equalprg=xmllint\ --nocompact\ --format\ --recover\ -\ 2>/dev/null
+
 " Auto completion via ctrl-space (instead of the nasty ctrl-x ctrl-o)
 inoremap <Nul> <C-x><C-o>
 

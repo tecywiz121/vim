@@ -41,3 +41,11 @@
 [submodule "bundle/hardmode"]
 	path = bundle/hardmode
 	url = https://github.com/wikitopian/hardmode.git
+[submodule "bundle/Omnisharp"]
+	path = bundle/Omnisharp
+	url = https://github.com/nosami/Omnisharp
+	branch = master
+[submodule "bundle/vim-dispatch"]
+	path = bundle/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch
+	branch = master
