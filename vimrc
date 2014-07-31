@@ -40,6 +40,8 @@ inoremap <Nul> <C-x><C-o>
 set completeopt+=longest
 set completeopt-=preview
 
+nnoremap <leader>jd <Esc>:YcmCompleter GoTo<CR>
+
 " Change <Enter> to select highlighted option
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
