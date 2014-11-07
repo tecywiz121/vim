@@ -53,3 +53,7 @@
 	path = bundle/securemodelines
 	url = https://github.com/ciaranm/securemodelines.git
 	branch = master
+[submodule "bundle/vim-bbye"]
+	path = bundle/vim-bbye
+	url = https://github.com/moll/vim-bbye
+	branch = master

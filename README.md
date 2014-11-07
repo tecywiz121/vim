@@ -36,3 +36,11 @@ Arduino support in vim.
 ## vim-virtualenv
 
 Support python virtual environments in vim.
+
+## [vim-bbye](https://github.com/moll/vim-bbye)
+
+Adds a :Bdelete command that deletes a buffer without messing up your window layout (splits.)
+
+## [securemodelines](https://github.com/ciaranm/securemodelines)
+
+Brings back modelines, but with a touch of security. Only allows modelines to modify some settings (ex. tabstop, expandtab, etc.)
