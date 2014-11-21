@@ -83,3 +83,7 @@ let &colorcolumn=80
 
 " Fix vaxe autocompletion
 autocmd FileType haxe set autowrite
+
+" Eclim + YouCompleteMe
+let g:EclimCompletionMethod = 'omnifunc'
+let g:EclimJavaSearchSingleResult = 'edit'
