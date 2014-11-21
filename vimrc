@@ -1,9 +1,15 @@
 " Show line numbers
 set number
 
-" Vim Hardmode
-autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
-nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
+" Vim HardTime
+autocmd VimEnter,BufNewFile,BufReadPost * silent! HardTimeOn
+nnoremap <leader>h <Esc>:HardTimeToggle<CR>
+
+let g:hardtime_showmsg = 1
+let g:hardtime_ignore_quickfix = 1
+let g:hardtime_allow_different_key = 1
+
+let g:list_of_normal_keys = ["h", "j", "k", "l", "-", "+", "<UP>", "<DOWN>", "<LEFT>", "<RIGHT>", "<CR>"]
 
 " Indentation Detection
 let g:detectindent_preferred_indent = 4
