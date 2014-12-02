@@ -44,3 +44,7 @@ Adds a :Bdelete command that deletes a buffer without messing up your window lay
 ## [securemodelines](https://github.com/ciaranm/securemodelines)
 
 Brings back modelines, but with a touch of security. Only allows modelines to modify some settings (ex. tabstop, expandtab, etc.)
+
+## [ag.vim](https://github.com/rking/ag.vim)
+
+Integrates the Silver Searcher with vim.
