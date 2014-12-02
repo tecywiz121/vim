@@ -2,10 +2,6 @@
 	path = ext/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
 	branch = master
-[submodule "bundle/RelOps"]
-	path = bundle/RelOps
-	url = https://github.com/vim-scripts/RelOps.git
-	branch = master
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
