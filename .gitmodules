@@ -62,3 +62,7 @@
 	path = bundle/ag
 	url = https://github.com/rking/ag.vim.git
 	branch = master
+[submodule "bundle/tern_for_vim"]
+	path = bundle/tern_for_vim
+	url = https://github.com/marijnh/tern_for_vim
+	branch = master
