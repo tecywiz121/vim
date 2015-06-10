@@ -1,3 +1,8 @@
+" Backspace
+set backspace=indent,eol,start
+
+" Enable syntax
+syntax on
 " Show line numbers
 set number
 
