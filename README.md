@@ -9,6 +9,10 @@ I use a number of plugins in my environment, which can be found in bundle.
 
 Integrates the PHP debugger into Vim.
 
+## [RelOps](http://www.vim.org/scripts/script.php?script_id=4212)
+
+Relative line numbers for pending operations. Changes the line number display to relative when in an operation that uses relative positions.
+
 ## [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 
 The best thing to ever happen to me. Code completion. Code completion everywhere.
