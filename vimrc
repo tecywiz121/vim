@@ -84,9 +84,13 @@ endif
 
 " Switch to c++11
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
+let g:syntastic_javascript_checkers = ['jshint']
 
 " YouCompleteMe Configuration
 let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf.py'
+
+" Tern Configuration
+let tern#command = ['tern', '--no-port-file']
 
 " Highlight the background of long lines
 highlight ColorColumn ctermbg=5 guibg=LightBlue

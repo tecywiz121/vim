@@ -48,3 +48,7 @@ Brings back modelines, but with a touch of security. Only allows modelines to mo
 ## [ag.vim](https://github.com/rking/ag.vim)
 
 Integrates the Silver Searcher with vim.
+
+## [Tern for Vim](https://github.com/marijnh/tern_for_vim)
+
+Provides omnicompletion for JavaScript files
