@@ -66,3 +66,7 @@
 	path = bundle/tern_for_vim
 	url = https://github.com/marijnh/tern_for_vim
 	branch = master
+[submodule "bundle/vim-javascript-syntax"]
+	path = bundle/vim-javascript-syntax
+	url = https://github.com/jelera/vim-javascript-syntax.git
+	branch = master

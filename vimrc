@@ -65,6 +65,9 @@ inoremap <expr> <M-,> pumvisible() ? '<C-n>' :
 " File Type overrides
 au BufRead,BufNewFile *.s set filetype=nasm
 
+" Enable javascript code folding
+au FileType javascript call JavaScriptFold()
+
 " Window navigation
 nmap <silent> <A-Up> :wincmd k<CR>
 nmap <silent> <A-Down> :wincmd j<CR>
