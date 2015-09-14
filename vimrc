@@ -102,3 +102,40 @@ autocmd FileType haxe set autowrite
 " Eclim + YouCompleteMe
 let g:EclimCompletionMethod = 'omnifunc'
 let g:EclimJavaSearchSingleResult = 'edit'
+
+" Better Code Folding
+set foldlevelstart=99 foldtext=CustomFoldText() foldmethod=syntax
+function! CustomFoldText()
+  " Get the first non-blank line
+  let fs = v:foldstart
+  while getline(fs) =~ '^\s*$' | let fs = nextnonblank(fs + 1)
+  endwhile
+
+  if fs > v:foldend
+    let line = getline(v:foldstart)
+  else
+    let line = substitute(getline(fs), '\t', repeat(' ', &tabstop), 'g')
+  endif
+
+  " Get the last non-blank line
+  let fe = v:foldend
+  while getline(fe) =~ '^\s*$' | let fe = prevnonblank(fe - 1)
+  endwhile
+
+  if fe < v:foldstart
+    let eline = getline(v:foldend)
+  else
+    let eline = substitute(getline(fe), '\t', repeat(' ', &tabstop), 'g')
+  endif
+
+  if fs != fe
+    let line = line . " ... " . substitute(eline, '^\s*', '', '')
+  endif
+
+  let w = winwidth(0) - &foldcolumn - (&number ? 4 : 0)
+  let foldSize = 1 + v:foldend - v:foldstart
+  let foldSizeStr = " " . foldSize . " lines "
+  let lineCount = line("$")
+  let expansionString = repeat(" ", w - strwidth(foldSizeStr.line))
+  return line . expansionString . foldSizeStr
+endfunction
